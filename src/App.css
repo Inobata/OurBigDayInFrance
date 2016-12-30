@@ -1,0 +1,97 @@
+#AlwaysInMiddle{
+  position: fixed; /* or absolute */
+  top: 50%!important;
+  left: 50%!important;
+  /*margin-top: -167px;
+  margin-left: -138px;*/
+  transform: translate(-50%, -50%);
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #ffffff;
+  //height: 150px;
+  padding: 10px;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.smallj{
+  /*font-family: 'Sacramento', cursive;
+  font-family: 'Mr Bedfort', cursive;
+  font-family: 'Lovers Quarrel', cursive;
+  font-family: 'Ruthie', cursive;*/
+  font-family: 'Qwigley', cursive;
+  font-size: 1.7em;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 1.5vw;
+}
+.largej{
+  /*font-family: 'Sacramento', cursive;
+  font-family: 'Mr Bedfort', cursive;
+  font-family: 'Lovers Quarrel', cursive;
+  font-family: 'Ruthie', cursive;*/
+  font-family: 'Qwigley', cursive;
+  font-size: 3em;
+  font-weight: bold;
+  display: inline-block;
+}
+p{
+  font-size: 1.3em;
+  font-family: 'Chewy', cursive;
+  letter-spacing: .5px;
+}
+.hoverOverText{
+  font-size: 1.1em;
+  color: blue;
+  text-decoration: none;
+  border-bottom: 1px solid blue;
+}
+.centrejust{
+  font-size: 1.1em;
+  text-align: center;
+}
+.list{
+  display: inline-block
+}
+.list.left{
+  width: 45%;
+  text-align: right
+}
+.list.right{
+  width: 55%;
+  text-align: left;
+  padding-left: 1vw;
+}
+.list.left30{
+  width: 30%;
+  text-align: right
+}
+.list.right70{
+  width: 70%;
+  text-align: left;
+  padding-left: 1vw;
+}
+h3, h4{
+  font-family: Chewy,cursive;
+  letter-spacing: 1.5px;
+}
+h4{
+  font-size: 1.9em;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,25 @@
+
+
+.sm{
+  /*font-family: 'Sacramento', cursive;
+  font-family: 'Mr Bedfort', cursive;
+  font-family: 'Lovers Quarrel', cursive;
+  font-family: 'Ruthie', cursive;*/
+  font-family: 'Qwigley', cursive;
+  font-size: 1em;
+}
+.lg{
+  /*font-family: 'Sacramento', cursive;
+  font-family: 'Mr Bedfort', cursive;
+  font-family: 'Lovers Quarrel', cursive;
+  font-family: 'Ruthie', cursive;*/
+  font-family: 'Qwigley', cursive;
+  font-size: 1.5em;
+}
+img{
+   height: 330px!important;
+}
+.wg{
+  left: 15vw;
+  width: 85vw!important;
+}
